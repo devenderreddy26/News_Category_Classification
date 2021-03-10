@@ -31,8 +31,8 @@ This project has four major parts :
 4. templates - This folder contains the HTML template to allow user to enter news text and displays the predicted news category. (yet to create)
 
 ### Next Steps
-Create the requirements.txt file containing all the required libraries
-Create a Docker image and container hosting the model and API with necessary environment setup and start-up operations
-Publish the container on to the Amazon container registry (ECR)
-Use the Kubernetes service to scale up the docker images as the traffic surges
+1. Create the requirements.txt file containing all the required libraries
+2. Create a Docker image and container hosting the model and API with necessary environment setup and start-up operations
+3. Publish the container on to the Amazon container registry (ECR)
+4. Use the Kubernetes service to scale up the docker images as the traffic surges
 
